@@ -1,0 +1,19 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local tooling and data
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pgdata/
+redis-data/
+*.log
